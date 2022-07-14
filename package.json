@@ -1,0 +1,21 @@
+{
+    "name": "monokai22",
+    "displayName": "Monokai22",
+    "description": "A fresh take on Monokai.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai22",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai22-color-theme.json"
+            }
+        ]
+    }
+}
