@@ -1,7 +1,7 @@
 {
     "name": "monokai22",
     "displayName": "Monokai22",
-    "description": "A fresh take on Monokai.",
+    "description": "An old take on Monokai.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.69.0"

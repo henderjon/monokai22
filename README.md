@@ -1,13 +1,8 @@
 # README
-## This is the README for your extension "monokai22"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+## Theme: "monokai22"
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+Admittedly "22" is a bit misleading. I fell in love with the original Monokai from TextMate. I used it in SublimeText 2 and 3. The VSCode version was good, but not exact. So I went to the very little trouble of tweaking it to the variations of the colors and grammars with which my eyes were familiar. I also removed the italics. I did this a very long time ago, but updated the tmTheme file to more readable and useful json.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+It's not a very far departure, but it's the one that I love using.
 
 **Enjoy!**

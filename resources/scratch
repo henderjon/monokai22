@@ -1,0 +1,18 @@
+https://code.visualstudio.com/api/references/theme-color
+
+"generate" color scheme off current
+view "scope" of character
+
+https://stackoverflow.com/questions/30011737/how-to-add-theme-in-visual-studio-code
+https://stackoverflow.com/questions/10834765/where-to-find-a-list-of-scopes-for-sublime2-or-textmate
+https://marketplace.visualstudio.com/items?itemName=pedro-w.tmlanguage
+https://sublime3-docs-zh.readthedocs.io/en/latest/reference/color_schemes.html
+https://hashnode.com/post/create-and-publish-a-vs-code-theme-ckz2r72o00n44mjs1d4bkc0fb
+
+
+#################################################################### files #####
+
+tmtheme-converted is the output of an automatic converstion from tmTheme to JSON.
+monokai-no-italic.tmTheme is my original port of the textmate theme
+defaul- monokai.json is the generated color scheme of the default vscode monokai
+colors.html is the hex of the colors I prefer
