@@ -16,3 +16,9 @@ tmtheme-converted is the output of an automatic converstion from tmTheme to JSON
 monokai-no-italic.tmTheme is my original port of the textmate theme
 defaul- monokai.json is the generated color scheme of the default vscode monokai
 colors.html is the hex of the colors I prefer
+
+################################################################# terminal #####
+
+terminal.sexy
+https://chrisyeh96.github.io/2020/03/28/terminal-colors.html
+https://www.schemecolor.com/

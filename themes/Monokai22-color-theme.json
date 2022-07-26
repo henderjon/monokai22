@@ -28,7 +28,7 @@
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#F8F8F0"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 				"meta.template.expression"
 			],
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#F8F8F0"
 			}
 		},
 		{
@@ -79,9 +79,12 @@
 			}
 		},
 		{
-			"scope": "variable",
+			"scope": [
+				"variable",
+				"variable.language.this.php"
+			],
 			"settings": {
-				"foreground": "#F8F8F2",
+				"foreground": "#F8F8F0",
 				"fontStyle": ""
 			}
 		},
@@ -177,8 +180,8 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#F44747",
-				"fontStyle": ""
+				"foreground": "#bbbbbb",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -313,7 +316,7 @@
 		{
 			"scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#F8F8F0"
 			}
 		},
 		{
