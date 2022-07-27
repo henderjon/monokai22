@@ -81,7 +81,9 @@
 		{
 			"scope": [
 				"variable",
-				"variable.language.this.php"
+				"variable.language.this.php",
+				// "keyword.operator.class.php",
+				"keyword.operator.key.php"
 			],
 			"settings": {
 				"foreground": "#F8F8F0",
@@ -105,35 +107,42 @@
 			"scope": "storage.type",
 			"settings": {
 				"foreground": "#66D9EF",
-				"fontStyle": "italic"
 			}
 		},
 		{
-			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+			"scope": [
+				"type", "entity.name.type",
+			],
 			"settings": {
 				"foreground": "#A6E22E",
-				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"class", "entity.name.class", "entity.name.type.class",
+				"entity.name.namespace", "entity.name.scope-resolution",
+				"entity.name.type.interface",
+			],
+			"settings": {
+				"foreground": "#F92672",
 			}
 		},
 		{
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"foreground": "#A6E22E",
-				"fontStyle": "italic underline"
 			}
 		},
 		{
 			"scope": "entity.name.function",
 			"settings": {
 				"foreground": "#A6E22E",
-				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "variable.parameter",
 			"settings": {
 				"foreground": "#FD971F",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -276,13 +285,6 @@
 			}
 		},
 		{
-			"scope": "markup.quote.markdown",
-			"settings": {
-				"foreground": "#75715E",
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"scope": "markup.bold.markdown",
 			"settings": {
 				"fontStyle": "bold"
@@ -297,7 +299,8 @@
 		{
 			"scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#E6DB74",
+				"fontStyle": "underline"
 			}
 		},
 		{

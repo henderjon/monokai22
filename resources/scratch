@@ -25,3 +25,54 @@ https://www.schemecolor.com/
 https://coolors.co/
 https://colordesigner.io/
 https://meyerweb.com/eric/tools/color-blend/
+
+########################################################## semantic tokens #####
+
+### https://github.com/microsoft/vscode-extension-samples/tree/main/semantic-tokens-sample
+Available token types:
+    [comment] [string] [keyword] [number] [regexp] [operator] [namespace]
+    [type] [struct] [class] [interface] [enum] [typeParameter] [function]
+    [method] [macro] [variable] [parameter] [property] [label] [decorator]
+
+
+Available token modifiers:
+    [type.declaration] [type.documentation] [type.readonly] [type.static]
+    [type.abstract] [type.deprecated] [type.modification] [type.async]
+
+Some examples:
+    [class.static.token]     [type.static.abstract]
+    [class.static.token]     [type.static]
+
+    [struct]
+
+    [function.private]
+
+    [support]
+
+    [other]
+
+An error case:
+    [notInLegend]
+
+
+VSC Token                            TextMate Fallback
+namespace                        --> entity.name.namespace
+type                             --> entity.name.type
+type.defaultLibrary              --> support.type
+struct                           --> storage.type.struct
+class                            --> entity.name.type.class
+class.defaultLibrary             --> support.class
+interface                        --> entity.name.type.interface
+enum                             --> entity.name.type.enum
+function                         --> entity.name.function
+function.defaultLibrary          --> support.function
+method                           --> entity.name.function.member
+macro                            --> entity.name.function.macro
+variable                         --> variable.other.readwrite , entity.name.variable
+variable.readonly                --> variable.other.constant
+variable.readonly.defaultLibrary --> support.constant
+parameter                        --> variable.parameter
+property                         --> variable.other.property
+property.readonly                --> variable.other.constant.property
+enumMember                       --> variable.other.enummember
+event                            --> variable.other.event
