@@ -168,7 +168,6 @@
 			"scope": "support.type, support.class",
 			"settings": {
 				"foreground": "#66D9EF",
-				"fontStyle": "italic"
 			}
 		},
 		{
@@ -181,7 +180,7 @@
 			"scope": "invalid",
 			"settings": {
 				"foreground": "#bbbbbb",
-				"fontStyle": "italic"
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
