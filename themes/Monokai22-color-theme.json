@@ -81,7 +81,7 @@
 			"scope": [
 				"variable",
 				"variable.language.this.php",
-				"keyword.operator.class.php",
+				// "keyword.operator.class.php",
 				"keyword.operator.key.php"
 			],
 			"settings": {
@@ -109,20 +109,25 @@
 			}
 		},
 		{
-			"scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+			"scope": [
+				"type", "entity.name.type",
+			],
 			"settings": {
 				"foreground": "#A6E22E",
-				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": [
+				"class", "entity.name.class", "entity.name.type.class",
+				"entity.name.namespace", "entity.name.scope-resolution",
+				"entity.name.type.interface",
+			],
+			"settings": {
+				"foreground": "#F92672",
 			}
 		},
 		{
 			"scope": "entity.other.inherited-class",
-			"settings": {
-				"foreground": "#A6E22E",
-			}
-		},
-		{
-			"scope": "type",
 			"settings": {
 				"foreground": "#A6E22E",
 			}
