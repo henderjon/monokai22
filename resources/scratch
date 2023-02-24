@@ -17,6 +17,9 @@ monokai-no-italic.tmTheme is my original port of the textmate theme
 defaul- monokai.json is the generated color scheme of the default vscode monokai
 colors.html is the hex of the colors I prefer
 
+##### DEAFULT LOCATION
+/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/
+
 ################################################################# terminal #####
 
 terminal.sexy

@@ -3,13 +3,13 @@
 	"type": "dark",
 	"colors": {
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBarTitle.foreground": "#CFCFC2",
         "editor.background": "#272822",
         "editorCursor.foreground": "#F8F8F0",
         "editor.foreground": "#F8F8F0",
         "editor.lineHighlightBackground": "#3E3D32",
         "editor.selectionBackground": "#49483E",
-        "editor.findMatchBackground": "#FFE792",
+        "editor.findMatchBackground": "#E6DB74",
 
 		"window.activeBorder": "#CFCFC2",
 		"window.inactiveBorder": "#66D9EF",
@@ -34,13 +34,13 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#88846F"
+				"foreground": "#75715E"
 			}
 		},
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#FFE792"
 			}
 		},
 		{
@@ -188,14 +188,15 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#bbbbbb",
+				"foreground": "#CFCFC2",
 				"fontStyle": "strikethrough"
 			}
 		},
 		{
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#F44747"
+				"foreground": "#CFCFC2",
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
@@ -225,19 +226,19 @@
 		{
 			"scope": "markup.changed",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#FFE792"
 			}
 		},
 		{
 			"scope": "constant.numeric.line-number.find-in-files - match",
 			"settings": {
-				"foreground": "#AE81FFA0"
+				"foreground": "#AE81FF"
 			}
 		},
 		{
 			"scope": "entity.name.filename.find-in-files",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#FFE792"
 			}
 		},
 		{
@@ -249,7 +250,7 @@
 		{
 			"scope": "markup.list",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#FFE792"
 			}
 		},
 		{
@@ -299,7 +300,7 @@
 		{
 			"scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
 			"settings": {
-				"foreground": "#E6DB74",
+				"foreground": "#FFE792",
 				"fontStyle": "underline"
 			}
 		},
@@ -332,25 +333,26 @@
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#6796E6"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#CD9731"
+				"foreground": "#FD971F"
 			}
 		},
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#F44747"
+				"foreground": "#CFCFC2",
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
 			"scope": "token.debug-token",
 			"settings": {
-				"foreground": "#B267E6"
+				"foreground": "#AE81FF"
 			}
 		},
 		{

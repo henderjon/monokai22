@@ -1,0 +1,42 @@
+-- "foreground": "#456BA5" selection blue in terminal
+-- "foreground": "#7F7F7F" cursor in terminal
+-- "foreground": "#819AFF" blue
+-- "foreground": "#F4BF75" tan
+
+-- "foreground": "#CFCFC2" light grey // dark white
+-- "foreground": "#75715E" dark grey // light black
+
+8 COLOR MONOKAI
+-- "foreground": "#272822" black // background
+-- "foreground": "#F92672" fuschia
+-- "foreground": "#A6E22E" green
+-- "foreground": "#FFE792" yellow // mod
+-- "foreground": "#FD971F" orange SHOULD be BLUE
+-- "foreground": "#AE81FF" magenta
+-- "foreground": "#66D9EF" cyan
+-- "foreground": "#F8F8F2" white // foreground
+
+SECONDARY TERMINAL SCHEME
+/* 8 normal colors */
+[0] = "#000000", /* black   */
+[1] = "#ff0004", /* red     */
+[2] = "#a6e22e", /* green   */
+[3] = "#fce96b", /* yellow  */
+[4] = "#7eafff", /* blue    */
+[5] = "#ff7fef", /* magenta */
+[6] = "#66d9ef", /* cyan    */
+[7] = "#f1f1f0", /* white   */
+
+/* 8 bright colors */
+[8]  = "#4d4d4d", /* black   */
+[9]  = "#ff0004", /* red     */
+[10] = "#a6e22e", /* green   */
+[11] = "#fce96b", /* yellow  */
+[12] = "#7eafff", /* blue    */
+[13] = "#ff7fef", /* magenta */
+[14] = "#66d9ef", /* cyan    */
+[15] = "#f1f1f0", /* white   */
+
+/* special colors */
+[256] = "#1d1e1a", /* background */
+[257] = "#e6e6e6", /* foreground */
