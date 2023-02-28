@@ -20,7 +20,9 @@
 		"editorIndentGuide.background": "#b30000",
 		"editorIndentGuide.activeBackground": "#B30000",
 		"editorRuler.foreground":"#75715E",
-		"terminal.foreground": "#cccccc",
+
+		"terminal.foreground": "#F8F8F2",
+		"terminal.background": "#272822",
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiRed": "#F92672",
 		"terminal.ansiGreen": "#A6E22E",
@@ -37,6 +39,9 @@
 		"terminal.ansiBrightMagenta": "#AE81FF",
 		"terminal.ansiBrightCyan": "#66D9EF",
 		"terminal.ansiBrightWhite": "#F8F8F2",
+		"terminal.selectionBackground": "#456BA5",
+		"terminalCursor.background": "#7F7F7F",
+		// "terminalCursor.foreground": "",
 	},
 	"tokenColors": [
 		{

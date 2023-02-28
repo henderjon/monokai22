@@ -14,11 +14,14 @@ https://code.visualstudio.com/api/references/theme-color
 
 #################################################################### files #####
 
-tmtheme-converted is the output of an automatic converstion from tmTheme to JSON.
-monokai-no-italic.tmTheme is my original port of the textmate theme
-defaul- monokai.json is the generated color scheme of the default vscode monokai
-colors.html is the hex of the colors I prefer
-unified-scheme.txt removes some colors not used often and includes some mods
+[tmtheme-converted] is the output of an automatic converstion from tmTheme to JSON.
+[monokai-no-italic.tmTheme] is my original port of the textmate theme
+[monokai22-generated-original.json] was generated off my initial port
+[Monokai22.yaml] is my scheme for warp.app
+[defaul-monokai.json] is the generated color scheme of the default vscode monokai
+[colors.html] is the hex of the colors I prefer
+[unified-scheme.txt] removes some colors not used often and includes some mods
+[vsc-default-monokai-color-theme.json] is the ACTUAL default monokai from VSCode
 
 ##### DEAFULT LOCATION
 /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/

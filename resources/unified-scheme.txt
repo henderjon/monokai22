@@ -1,7 +1,10 @@
+https://code.visualstudio.com/api/references/theme-color
+
 -- "foreground": "#456BA5" selection blue in terminal
 -- "foreground": "#7F7F7F" cursor in terminal
 -- "foreground": "#819AFF" blue
 -- "foreground": "#F4BF75" tan
+
 
 -- "foreground": "#CFCFC2" light grey // dark white
 -- "foreground": "#75715E" dark grey // light black
@@ -38,5 +41,6 @@ SECONDARY TERMINAL SCHEME
 [15] = "#f1f1f0", /* white   */
 
 /* special colors */
+[256] = "#191916", /* darker background */
 [256] = "#1d1e1a", /* background */
 [257] = "#e6e6e6", /* foreground */
