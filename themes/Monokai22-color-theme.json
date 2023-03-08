@@ -2,27 +2,24 @@
 	"name": "Monokai22",
 	"type": "dark",
 	"colors": {
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#CFCFC2",
-        "editor.background": "#272822",
-        "editorCursor.foreground": "#F8F8F0",
-        "editor.foreground": "#F8F8F0",
+        "editor.background": "#1E1E1E",
+        "editorCursor.foreground": "#F8F8F2",
+        "editor.foreground": "#F8F8F2",
         "editor.lineHighlightBackground": "#3E3D32",
         "editor.selectionBackground": "#49483E",
-        "editor.findMatchBackground": "#AE81FF",
+        "editor.findMatchBackground": "#49483E",
+		"editor.findMatchHighlightBorder": "#75715E",
 
-		"window.activeBorder": "#CFCFC2",
-		"window.inactiveBorder": "#66D9EF",
-		"tab.border": "#F8F8F0",
-		"editorLineNumber.activeForeground" : "#F8F8F0",
-		"terminal.border" : "#F8F8F0",
-		"editorWhitespace.foreground": "#B30000",
-		"editorIndentGuide.background": "#b30000",
-		"editorIndentGuide.activeBackground": "#B30000",
+		"tab.border": "#F8F8F2",
+		"editorLineNumber.activeForeground" : "#F8F8F2",
+		"terminal.border" : "#F8F8F2",
+		"editorWhitespace.foreground": "#75715E",
+		"editorIndentGuide.background": "#75715E",
+		"editorIndentGuide.activeBackground": "#75715E",
 		"editorRuler.foreground":"#75715E",
 
 		"terminal.foreground": "#F8F8F2",
-		"terminal.background": "#272822",
+		"terminal.background": "#1E1E1E",
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiRed": "#F92672",
 		"terminal.ansiGreen": "#A6E22E",
@@ -50,7 +47,7 @@
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"foreground": "#F8F8F0"
+				"foreground": "#F8F8F2"
 			}
 		},
 		{
@@ -79,7 +76,7 @@
 				"meta.template.expression"
 			],
 			"settings": {
-				"foreground": "#F8F8F0"
+				"foreground": "#F8F8F2"
 			}
 		},
 		{
@@ -108,7 +105,7 @@
 				"keyword.operator.key.php"
 			],
 			"settings": {
-				"foreground": "#F8F8F0",
+				"foreground": "#F8F8F2",
 				"fontStyle": ""
 			}
 		},
@@ -341,7 +338,7 @@
 		{
 			"scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
 			"settings": {
-				"foreground": "#F8F8F0"
+				"foreground": "#F8F8F2"
 			}
 		},
 		{

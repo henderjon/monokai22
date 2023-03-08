@@ -1,4 +1,11 @@
+################################################################################
+#
+# VSCode COLOR INFO
+#
+################################################################################
+
 https://code.visualstudio.com/api/references/theme-color
+https://code.visualstudio.com/api/extension-guides/color-theme
 
 "generate" color scheme off current
 view "scope" of character
@@ -53,6 +60,13 @@ https://www.schemecolor.com/20-best-camouflage-color-schemes.php
 https://www.color-name.com/coyote.color
 
 https://mdigi.tools/
+
+https://github.com/michurin/xterm256-color-picker
+256 Colors Cheat Sheet https://www.ditig.com/256-colors-cheat-sheet
+Online table of colors https://jonasjacek.github.io/colors/
+XOrg colors https://github.com/freedesktop/xorg-rgb/blob/master/rgb.txt
+Vim colors https://github.com/vim/vim/blob/e30d10253f~/runtime/rgb.txt
+https://github.com/grawity/code/blob/HEAD/misc/xterm-color-chooser#L4
 
 
 ########################################################## semantic tokens #####
