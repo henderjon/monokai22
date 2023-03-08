@@ -7,9 +7,9 @@
 		"editor.foreground": "#F8F8F2",
 		"editor.lineHighlightBackground": "#3E3D32",
 		"editor.selectionBackground": "#49483E",
-		"editor.findMatchBackground": "#49483E",
-		"editor.findMatchHighlightBorder": "#49483E",
-		"editor.findMatchHighlightBackground": "#49483E",
+		// "editor.findMatchBackground": "#49483E",
+		// "editor.findMatchHighlightBorder": "#75715E",
+		// "editor.findMatchHighlightBackground": "#49483E",
 
 		"tab.border": "#F8F8F2",
 		"editorLineNumber.activeForeground" : "#F8F8F2",
