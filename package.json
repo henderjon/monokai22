@@ -3,7 +3,7 @@
     "displayName": "Monokai22",
     "icon": "icon.png",
     "description": "An old take on the Monokai theme.",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "engines": {
         "vscode": "^1.69.0"
     },
